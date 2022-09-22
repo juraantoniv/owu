@@ -5,7 +5,6 @@ const PostForm = ({post,key}) => {
 
     return (
         <div>
-
             <div>id:{key}</div>
             <div>name:{name}</div>
             <div>email:{email}</div>
