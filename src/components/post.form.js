@@ -1,11 +1,12 @@
 import React from 'react';
 
 const PostForm = ({post,key}) => {
-    const {name,email,body}=post
+    const {postId,name,email,body}=post
+
 
     return (
         <div>
-            <div>id:{key}</div>
+            <div>id:{postId}</div>
             <div>name:{name}</div>
             <div>email:{email}</div>
             <div>post:{body}</div>

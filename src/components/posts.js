@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import {userService} from "../services";
 import User from "./users";
 import PostForm from "./post.form";
-// import {PostForm} from "./post.form";
+
 
 
 
@@ -25,8 +25,9 @@ const Users = () => {
 
     return (
         <div>
-            {post.map(post=> <PostForm key={post.id} post ={post}/>)}
+            {post.map(value=> <PostForm key={value.id} post={value}/>)}
             {user.map(user => <User key={user.id} user={user} getUserPost={getUserPost}/>)}
+
         </div>
     );
 };

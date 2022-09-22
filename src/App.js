@@ -2,13 +2,17 @@
 import './App.css';
 import {Users} from "./components/posts";
 import PostForm from "./components/post.form";
+import {userService} from "./services";
+import {useState} from "react";
 
 function App() {
+
   return (
     <div className="App">
-             <Users/>
+
+             <Users />
         <div>
-            <PostForm/>
+            {/*<PostForm/>*/}
         </div>
     </div>
   );
