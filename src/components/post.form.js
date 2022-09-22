@@ -1,36 +1,17 @@
-import {useForm} from "react-hook-form";
-import {useEffect} from "react";
-import {userService} from "../services";
+import React from 'react';
 
-
-
-
-const PostForm= ({setUser}) => {
-    const {register, handleSubmit, reset,setValue} = useForm({
-        mode: 'all'
-    });
-
-    useEffect(() => {
-        setValue('name', 'Andrii')
-        setValue('body', 'Lorem hggjg hgjhgjgjhg hghjgjhgjg')
-        setValue('email', 'andr@GMAIK.COM')
-    }, [setValue])
-
-    const submit = async (us) => {
-        let {data} = await userService.create(us);
-        setUser(user => [...user, data])
-        reset()
-    };
+const PostForm = ({post,key}) => {
+    const {name,email}=post
 
     return (
+        <div>
 
-        <form onSubmit={handleSubmit(submit)}>
-            <input type="text" placeholder={'name'} {...register('name')}/>
-            <input type="text" placeholder={'body'} {...register('body')}/>
-            <input type="text" placeholder={'email'} {...register('email')}/>
-            <button>Save</button>
-        </form>
+            <div>id:{key}</div>
+            <div>name:{name}</div>
+            <div>email:{email}</div>
+
+        </div>
     );
 };
 
-export {PostForm};
+export default PostForm;
