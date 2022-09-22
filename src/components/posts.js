@@ -8,7 +8,7 @@ import PostForm from "./post.form";
 
 const Users = () => {
     const [user, setUser] = useState([]);
-    const [post, setPost] = useState([]);
+    const [post, setPost] = useState(null);
 
     useEffect(() => {
         userService.getAll().then(({data})=>{setUser(data)
@@ -28,7 +28,7 @@ const Users = () => {
 
     return (
         <div>
-            {post.map(post=> <PostForm key={post.id} post ={post}/>)}
+            {post && post.map(post=> <PostForm key={post.id} post ={post}/>)}
             {user.map(user => <User key={user.id} user={user} getUserPost={getUserPost}/>)}
         </div>
     );

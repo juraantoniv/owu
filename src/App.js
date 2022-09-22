@@ -6,7 +6,7 @@ import PostForm from "./components/post.form";
 function App() {
   return (
     <div className="App">
-     <Users/>
+             <Users/>
         <div>
             <PostForm/>
         </div>
@@ -16,4 +16,3 @@ function App() {
 
 export default App;
 
-//jjojpojpo;l';l';l';l'
