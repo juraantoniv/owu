@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../owu.iml" filepath="$PROJECT_DIR$/../owu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/owu.iml" filepath="$PROJECT_DIR$/.idea/owu.iml" />
     </modules>
   </component>
 </project>
