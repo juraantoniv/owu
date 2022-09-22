@@ -12,16 +12,13 @@ const Users = () => {
 
     useEffect(() => {
         userService.getAll().then(({data})=>{setUser(data)
-            console.log(data)
+
         })
     }, [])
 
     let getUserPost =(id)=>{
         userService.getAllP(id).then(({data})=>{
             setPost(data)
-            console.log(data)
-
-
         })
 
     }
