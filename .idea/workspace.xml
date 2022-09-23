@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c2ee56-f979-4e47-8983-3b65746c4406" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/urls/index.js" afterDir="false" />
+    <list default="true" id="9f1ec17f-7199-43a3-a531-b707d252a224" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/axios.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/axios.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/post.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/all.services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls/urls.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw3_2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,10 +30,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2F7FqXLZC7hKVdapz1gsnmx3RJg" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2FAxa4uN5WZcQKE2Ct59XlIJm9V" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,110 +40,24 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Юра\IdeaProjects\owu\src\components\Users" />
-      <recent name="C:\Users\Юра\IdeaProjects\owu\src\components\User" />
-      <recent name="C:\Users\Юра\IdeaProjects\owu\src\components\Posts" />
-      <recent name="C:\Users\Юра\IdeaProjects\owu\src\components\Post" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="run start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79c2ee56-f979-4e47-8983-3b65746c4406" name="Changes" comment="" />
-      <created>1663835406803</created>
+      <changelist id="9f1ec17f-7199-43a3-a531-b707d252a224" name="Changes" comment="" />
+      <created>1663948753575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663835406803</updated>
-      <workItem from="1663835408808" duration="309000" />
-      <workItem from="1663836248287" duration="10000" />
-      <workItem from="1663851481967" duration="216000" />
-      <workItem from="1663851884129" duration="721000" />
+      <updated>1663948753575</updated>
+      <workItem from="1663948756409" duration="38000" />
+      <workItem from="1663948857120" duration="192000" />
+      <workItem from="1663949470197" duration="11000" />
+      <workItem from="1663954609865" duration="612000" />
+      <workItem from="1663964637133" duration="1823000" />
     </task>
-    <task id="LOCAL-00001" summary="ok">
-      <created>1663835473616</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663835473616</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ok">
-      <created>1663835508408</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663835508409</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ok">
-      <created>1663870243560</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1663870243560</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ok">
-      <created>1663874356099</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1663874356099</updated>
-    </task>
-    <task id="LOCAL-00005" summary="ok">
-      <created>1663874509182</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1663874509182</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ok">
-      <created>1663875017002</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663875017002</updated>
-    </task>
-    <task id="LOCAL-00007" summary="ok">
-      <created>1663876254557</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663876254557</updated>
-    </task>
-    <task id="LOCAL-00008" summary="ok">
-      <created>1663931600815</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663931600815</updated>
-    </task>
-    <task id="LOCAL-00009" summary="ok">
-      <created>1663934102978</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663934102978</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,8 +74,8 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

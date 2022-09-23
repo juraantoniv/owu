@@ -1,24 +1,24 @@
 
 import './App.css';
-import {userService} from "./services";
-import {useState} from "react";
-import {Posts, Users} from "./components";
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+    Link,
+    Outlet
+} from "react-router-dom";
 
 function App() {
 
-    const [post, setPost] = useState([]);
 
-    let getUserPost =(id)=>{
-        userService.getPosts(id).then(({data})=>{
-            setPost(data)
-        })
-    }
   return (
     <div className="App">
-             <Users getUserPost ={getUserPost}/>
-        <div>
-            <Posts  post ={post} />
-        </div>
+        <ul>
+            <li><Link to={'/'}>Home page</Link></li>
+            <li><Link to={'/todos'}>todos </Link></li>
+            <li><Link to={'/comments '}>comments </Link></li><li><Link to={'/drill'}>drill</Link></li>
+        </ul>
+
     </div>
   );
 }
