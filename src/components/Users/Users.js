@@ -17,7 +17,7 @@ const Users = ({getUserPost}) => {
 
 
     return (
-        <div>
+        <div className={'user'}>
             {user.map(user => <User key={user.id} user={user} getUserPost={getUserPost}/>)}
 
         </div>

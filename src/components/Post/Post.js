@@ -5,7 +5,7 @@ const PostForm = ({post}) => {
 
 
     return (
-        <div>
+        <div className={'post'}>
             <div>id:{userId}</div>
             <div>title:{title}</div>
             <div>post:{body}</div>
