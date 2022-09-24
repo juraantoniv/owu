@@ -1,14 +1,27 @@
+import {useLocation, useParams} from "react-router-dom";
+import {useEffect, useState} from "react";
+import {userService} from "../../services";
 
-import PostForm from "../Post/Post";
+export default function PostDetails() {
+    // let {state:post} = useLocation();
+    let {id} = useParams();
+    let [post, setPost] = useState({});
 
-const Posts = ({post}) => {
+    useEffect(() => {
+        userService.getPosts(id).then(({data})=>{
+            setPost(data)
+            console.log(data)
+        })
+
+    }, [id]);
+
+
 
     return (
-        <div className={'box'}>
-            {post.map(value=> <PostForm key={value.id} post={value}/>)}
+        <div>
+            {JSON.stringify(post)}
 
         </div>
     );
-};
+}
 
-export {Posts};

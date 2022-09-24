@@ -10,6 +10,7 @@ import {
 import Todos from "./components/todo/Todo";
 import Albums from "./components/Albums/Albums";
 import Comments from "./components/Comments/Comments";
+import PostDetails from "./components/Posts/Posts";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
             <Route path={'todos'} element={<Todos/>}/>
             <Route path={'Albums'} element={<Albums/>}/>
             <Route path={'Comments'} element={<Comments/>}/>
+            <Route path={'Comments/:id'} element={<PostDetails/>}/>
 
         </Routes>
 
