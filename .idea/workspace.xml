@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f1ec17f-7199-43a3-a531-b707d252a224" name="Changes" comment="ok" />
+    <list default="true" id="9f1ec17f-7199-43a3-a531-b707d252a224" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/src/components/Album/Album.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Albums/Albums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comment/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo/Todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todos/Todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="hw3_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,6 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FAxa4uN5WZcQKE2Ct59XlIJm9V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +53,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +77,8 @@
       <workItem from="1663948857120" duration="192000" />
       <workItem from="1663949470197" duration="11000" />
       <workItem from="1663954609865" duration="612000" />
-      <workItem from="1663964637133" duration="2149000" />
+      <workItem from="1663964637133" duration="4362000" />
+      <workItem from="1664000680143" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1663966767025</created>
@@ -53,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663966767025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <created>1663966864542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663966864542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
