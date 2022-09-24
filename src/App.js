@@ -25,14 +25,19 @@ function App() {
 
         </ul>
 
+
+
         <hr/>
         <Routes>
             {/* root path - /        */}
             {/*<Route path={'/'} element={<Home/>}/>*/}
             <Route path={'todos'} element={<Todos/>}/>
             <Route path={'Albums'} element={<Albums/>}/>
-            <Route path={'Comments'} element={<Comments/>}/>
-            <Route path={'Comments/:id'} element={<PostDetails/>}/>
+            <Route path={'Comments'} element={<Comments/>}>
+
+            <Route path={':postId'} element={<PostDetails/>}/>
+
+             </Route>
 
         </Routes>
 

@@ -1,25 +1,19 @@
-import {useLocation, useParams} from "react-router-dom";
-import {useEffect, useState} from "react";
-import {userService} from "../../services";
+import {useLocation} from "react-router-dom";
+
 
 export default function PostDetails() {
-    // let {state:post} = useLocation();
-    let {id} = useParams();
-    let [post, setPost] = useState({});
-
-    useEffect(() => {
-        userService.getPosts(id).then(({data})=>{
-            setPost(data)
-            console.log(data)
-        })
-
-    }, [id]);
+    let {state:item} = useLocation();
 
 
 
     return (
+
         <div>
-            {JSON.stringify(post)}
+
+                <div>{item.name}</div>
+                <div>{item.email}</div>
+                <div>{item.body}</div>
+
 
         </div>
     );
