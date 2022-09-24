@@ -8,9 +8,8 @@ const PostForm = ({post}) => {
     return (
         <div className={'post'}>
             <div>id:{userId}</div>
-            <Link to={''}><h4>title:{title}</h4><Link/>
+            <h4>title:{title}</h4>
             <div>post:{body}</div>
-
         </div>
     );
 };
