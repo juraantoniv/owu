@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
-import {Link, useLocation} from "react-router-dom";
+
+import {useLocation} from "react-router-dom";
 
 const UserInfo = () => {
     let {state:item}=useLocation()
-    console.log(item)
 
     return (
-        <div>
+        <div className={'box_small'}>
 
             <div>{item.id}</div>
             <div>{item.name}</div>

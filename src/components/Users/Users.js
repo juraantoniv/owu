@@ -4,7 +4,7 @@ import {userService} from "../../services";
 
 
 import User from "../User/User";
-import {Outlet} from "react-router-dom";
+
 
 
 export default function Users() {
@@ -22,9 +22,6 @@ export default function Users() {
 
 
     return (<div className={'box'}>
-
-
-
 
 
             {user.map((user, index) => (<User item={user} key={index}/>))}

@@ -13,7 +13,6 @@ export default function Albums() {
     useEffect(() => {
         userService.getAlbums().then(({data})=>{
             setAlbum(data)
-            console.log(data)
         })
     }, [])
 

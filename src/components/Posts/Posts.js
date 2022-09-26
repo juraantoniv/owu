@@ -9,7 +9,7 @@ export default function PostDetails() {
 
     return (
 
-        <div>
+        <div className={'box_small1'}>
 
                 <div>{item.name}</div>
                 <div>{item.email}</div>

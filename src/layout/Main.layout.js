@@ -1,18 +1,14 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Outlet} from "react-router-dom";
+import Header from "../components/Headers/Header";
 
 const MainLayout = () => {
     return (
         <div>
-            <ul>
-                <li><Link to={'/'}>Home page</Link></li>
-                <li><Link to={'/todos'}>todos </Link></li>
-                <li><Link to={'/Albums'}>Albums </Link></li>
-                <li><Link to={'/Comments'}>Comments </Link></li>
-                <li><Link to={'/Users'}>Users </Link></li>
 
-            </ul>
-
+            <Header/>
+            <h3>Content</h3>
+            <Outlet/>
         </div>
     );
 };
