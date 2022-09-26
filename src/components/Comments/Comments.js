@@ -21,11 +21,12 @@ export default function Comments() {
 
 
     return (<div className={'box'}>
-           <div className={'out'}>
 
-               <Outlet/>
+            <div className={'out'}>
 
-           </div>
+                <Outlet/>
+
+            </div>
 
             {comment.map((user, index) => (<Comment item={user} key={index}/>))}
         </div>

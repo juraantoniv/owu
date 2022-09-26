@@ -5,20 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44f0701c-6016-4fb4-88ff-27266df7ffd2" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/src/components/User-info/User.info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/Main.layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Comment/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comment/Comment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comments/Comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Post.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/all.services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/all.services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls/urls.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -73,7 +81,10 @@
       <workItem from="1664022688817" duration="2183000" />
       <workItem from="1664025551910" duration="346000" />
       <workItem from="1664026027287" duration="1763000" />
-      <workItem from="1664032017240" duration="959000" />
+      <workItem from="1664032017240" duration="1060000" />
+      <workItem from="1664130961336" duration="3000" />
+      <workItem from="1664134091304" duration="594000" />
+      <workItem from="1664190135036" duration="9587000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1664024032461</created>
@@ -82,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664024032461</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <created>1664033061267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664033061267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

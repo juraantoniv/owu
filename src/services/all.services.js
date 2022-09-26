@@ -6,7 +6,7 @@ const userService = {
     getTodos:()=>axiosService.get(urls.todos),
     getAlbums:()=> axiosService.get(urls.albums),
     getComments:()=> axiosService.get(urls.comments),
-    // getPosts:(id)=> axiosService.get(urls.posts+'/'+id)
+    getUsers:()=> axiosService.get(urls.users)
 }
 
 export {
