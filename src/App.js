@@ -10,14 +10,15 @@ import {
 // import Todos from "./components/todo/Todo";
 import Albums from "./components/Albums/Albums";
 import Comments from "./components/Comments/Comments";
-import PostDetails from "./components/Posts/Posts";
+import PostDetails from "./components/Post/Post";
 import MainLayout from "./layout/Main.layout";
 import Users from "./components/Users/Users";
 import UserInfo from "./components/User-info/User.info";
-import TodosPage from "./Pages/Todos";
+import TodosPage from "./Pages/Posts";
 import AlbumsPage from "./Pages/Albums";
 import UsersPage from "./Pages/Users";
 import CommentsPage from "./Pages/Comments";
+import PostPage from "./Pages/Posts";
 
 function App() {
 
@@ -26,16 +27,9 @@ function App() {
     <div className="App">
         <Routes>
             <Route path={'/'} element={<MainLayout/>}>
-            <Route path={'todos'} element={<TodosPage/>}/>
-            <Route path={'Albums'} element={<AlbumsPage/>}/>
-            <Route path={'Users'} element={<UsersPage/>}>
-            <Route path={':id'} element={<UserInfo/>}/>
-                </Route>
-            <Route path={'Comments'} element={<CommentsPage/>}>
-            <Route path={':postId'} element={<PostDetails/>}/>
-             </Route>
-            </Route>
-
+            <Route path={'Posts'} element={<PostPage/>}/>
+            <Route path={'Comments'} element={<CommentsPage/>}/>
+          </Route>
         </Routes>
 
     </div>

@@ -1,22 +1,30 @@
-import {useLocation} from "react-router-dom";
+
+import {useEffect, useState} from "react";
+import {userService} from "../../services";
 
 
-export default function PostDetails() {
-    let {state:item} = useLocation();
-    console.log(useLocation())
+import PostDetails from "../Post/Post";
 
 
 
-    return (
-
-        <div className={'box_small1'}>
-
-                <div>{item.name}</div>
-                <div>{item.email}</div>
-                <div>{item.body}</div>
+export default function Posts() {
+    let [post,setPosts] = useState([]);
 
 
+
+    useEffect(() => {
+        userService.getPosts().then(({data})=>{
+            setPosts(data)
+        })
+    }, [])
+
+
+
+    return (<div className={'box'}>
+
+            {post.map((user, index) => (<PostDetails item={user} key={index}/>))}
         </div>
+
+
     );
 }
-

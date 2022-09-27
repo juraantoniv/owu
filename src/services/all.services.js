@@ -3,10 +3,9 @@ import {axiosService} from "./axios.service";
 import {urls} from "../urls"
 
 const userService = {
-    getTodos:()=>axiosService.get(urls.todos),
-    getAlbums:()=> axiosService.get(urls.albums),
+
     getComments:()=> axiosService.get(urls.comments),
-    getUsers:()=> axiosService.get(urls.users)
+    getPosts:()=> axiosService.get(urls.posts)
 }
 
 export {
