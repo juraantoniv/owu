@@ -7,7 +7,7 @@ const Header = () => {
             <ul>
                 <li><Link to={'/'}>Home page</Link></li>
                 <li><Link to={'Comments'}>Comments </Link></li>
-                <li><Link to={'Posts'}>Users </Link></li>
+                <li><Link to={'Posts'}>Posts </Link></li>
 
             </ul>
         </div>

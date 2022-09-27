@@ -1,7 +1,7 @@
-import {useLocation} from "react-router-dom";
 
 
-export default function PostDetails() {
+
+export default function PostDetails({item}) {
 
 
 

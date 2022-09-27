@@ -1,6 +1,6 @@
 
 export * from "./Post/Post"
-export * from './Album/Album'
-export * from './Albums/Albums'
-export * from './todo/Todo'
-export * from './todos/Todos'
+export * from "./Posts/Posts"
+export * from "./Comments/Comments"
+export * from "./Comment/Comment"
+export * from "./Headers/Header"
