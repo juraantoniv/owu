@@ -24,7 +24,6 @@ function App() {
 
   return (
     <div className="App">
-        {/*<MainLayout/>*/}
         <Routes>
             <Route path={'/'} element={<MainLayout/>}>
             <Route path={'todos'} element={<TodosPage/>}/>
