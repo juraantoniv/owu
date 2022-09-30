@@ -12,9 +12,9 @@ const App = () => {
     const reducer = (state, action) => {
         switch (action.type) {
             case 'Cat':
-                return {...state,cats:register.name}
+                return {...state,cats:register?.name}
             case 'Dog':
-                return {...state,dogs:register.name}
+                return {...state,dogs:register?.name}
         }
     }
 
