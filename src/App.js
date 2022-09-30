@@ -42,8 +42,9 @@ const App = () => {
                 <button onClick={() => dispatch({type:'Dog'})}>Click</button>
 
 
-                <div>{state.dogs}</div>
-                <div>{state.cats}</div>
+                {state && <div>{state.dogs}</div>}
+                {state && <div>{state.cats}</div>}
+
             </form>
         </div>
     );
