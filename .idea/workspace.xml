@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f0701c-6016-4fb4-88ff-27266df7ffd2" name="Changes" comment="ok">
+    <list default="true" id="ebb86da8-44b5-4513-b391-2846ab6e21d6" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comment/Comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comments/Comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Headers/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post/Post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Posts/Posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Main.layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/all.services.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/axios.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls/urls.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw4" />
+        <entry key="$PROJECT_DIR$" value="hw5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +79,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44f0701c-6016-4fb4-88ff-27266df7ffd2" name="Changes" comment="" />
+      <changelist id="ebb86da8-44b5-4513-b391-2846ab6e21d6" name="Changes" comment="ok" />
       <created>1664011680283</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -78,6 +94,7 @@
       <workItem from="1664190135036" duration="9587000" />
       <workItem from="1664217574293" duration="4876000" />
       <workItem from="1664292823580" duration="3696000" />
+      <workItem from="1664531131843" duration="6312000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1664024032461</created>
