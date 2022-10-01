@@ -1,52 +1,29 @@
-import {useReducer} from "react";
-import {useForm} from "react-hook-form";
 
-const init = (initialValue) => {
-    return {cats: initialValue, dogs: initialValue}
+import './App.css';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+    Link,
+    Outlet, Navigate
+} from "react-router-dom";
+import MainLayout from "./layunts/MainLayout";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import CarPage from "./pages/CarPage/CarPage";
 
-}
 
 
 const App = () => {
-
-    const reducer = (state, action) => {
-        switch (action.type) {
-            case 'Cat':
-                return {...state,cats:register?.name}
-            case 'Dog':
-                return {...state,dogs:register?.name}
-        }
-    }
-
-    function init (value){
-        return {dogs:value ,cats:value}
-
-
-    }
-
-    const [state, dispatch] = useReducer(reducer, null,init)
-
-    let {handleSubmit,register}=useForm()
-
-
-    const submit = (obj) => {
-        init(obj)
-    }
-
     return (
-        <div>
-            <form onSubmit={handleSubmit(submit)}>
-            <input type="text" placeholder={'cats'} {...register('cat')}/>
-                <button onClick={() => dispatch({type:'Cat'})}>Click</button>
-            <input type="text" placeholder={'dogs'} {...register('dog')}/>
-                <button onClick={() => dispatch({type:'Dog'})}>Click</button>
-
-
-                {state && <div>{state.dogs}</div>}
-                {state && <div>{state.cats}</div>}
-
-            </form>
-        </div>
+        <Routes>
+            <Route path={'/'} element={<MainLayout/>}>
+                <Route index element={<Navigate to={'/login'}/>}/>
+                <Route path={'/login'} element={<LoginPage/>}/>
+                <Route path={'/register'} element={<RegisterPage/>}/>
+                <Route path={'/cars'} element={<CarPage/>}/>
+            </Route>
+        </Routes>
     );
 };
 
