@@ -11,4 +11,4 @@ const Cat = ({catName,dispatch}) => {
     );
 };
 
-export default Cat;
+export {Cat};

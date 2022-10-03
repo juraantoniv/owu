@@ -1,7 +1,10 @@
 import {useReducer, useRef} from "react";
-import Cat from "./components/Cat";
-import Dog from "./components/Dog";
+
 import './App.css';
+
+import {Cat, Dog} from "./components";
+
+
 
 
     const reducer = (state, action) => {
@@ -25,12 +28,29 @@ const App = () => {
     let dogName = useRef()
 
     const useCat =(e)=>{
+        const err ='please enter name of the cat'
         e.preventDefault()
-        dispatch({type: 'Cat', payload: catName.current.value});
+        if(catName.current.value.length) {
+            dispatch({type: 'Cat', payload: catName.current.value});
+        }
+        else {
+            dispatch({type: 'Cat', payload:err});
+        }
+        catName.current.value = '';
     }
+
+
     const useDog =(e)=>{
         e.preventDefault()
-        dispatch({type: 'Dog', payload: dogName.current.value});
+        const err ='please enter name of the dog'
+        if(dogName.current.value.length){
+         dispatch({type: 'Dog', payload: dogName.current.value});
+        }
+        else {
+            dispatch({type: 'Dog', payload:err});
+
+        }
+        dogName.current.value = '';
     }
 
 
@@ -48,7 +68,7 @@ const App = () => {
                 <button onClick={useCat}>Click</button>
                  </form>
                 {
-                    state.cats.map(cat => (<Cat key={cat.id} catName ={cat.name} dispatch ={dispatch} />))
+                    state.cats.map(cat => (<Cat key={cat.id} catName = {cat.name} dispatch = {dispatch}/>))
                 }
             </div>
 
@@ -58,7 +78,7 @@ const App = () => {
                     <button onClick={useDog}>Click</button>
                 </form>
                 {
-                    state.dogs.map(dog => (<Dog key={dog.id} dogName ={dog.name} dispatch ={dispatch} />))
+                    state.dogs.map(dog => (<Dog key={dog.id} dogName = {dog.name} dispatch = {dispatch}/>))
                 }
             </div>
 
@@ -67,4 +87,3 @@ const App = () => {
 };
 
 export {App};
-                        {/*<button onClick={() => dispatch({type: 'deleteCat', payload: cat.id})}>Delete cat</button>*/}
