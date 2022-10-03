@@ -8,13 +8,13 @@ import './App.css';
         const {type, payload} = action;
         switch (type) {
             case 'Cat':
-                return {...state,cats:[...state.cats,{name:payload ,id:Date.now()}]}
+                return {...state,cats:[...state.cats,{name:payload ,id:Date.now()}]};
             case 'deleteCat':
                 return {...state, cats: state.cats.filter(cat => cat.id !== payload)};
             case 'Dog':
-                return {...state,dogs:[...state.dogs,{name:payload ,id:Date.now()}]}
+                return {...state,dogs:[...state.dogs,{name:payload ,id:Date.now()}]};
             case 'deleteDog':
-                return {...state, dogs: state.dogs.filter(cat => cat.id !== payload)};
+                return {...state, dogs: state.dogs.filter(dog => dog.id !== payload)};
 
         }
         return state
