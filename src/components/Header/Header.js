@@ -1,6 +1,6 @@
 import React from 'react';
 import {useNavigate} from "react-router-dom";
-import css from './Header.module.css'
+// import css from './Header.module.css'
 
 
 const Header = () => {
@@ -8,10 +8,10 @@ const Header = () => {
     const navigate = useNavigate();
 
     return (
-        <div className={css.Header}>
-            <div className={css.btns}>
-                <button onClick={() => navigate('/login')}>Login</button>
-                <button onClick={() => navigate('/register')}>Register</button>
+        <div>
+            <div>
+                <button onClick={() => navigate('/users')}>Users</button>
+                <button onClick={() => navigate('/posts')}>Posts</button>
             </div>
         </div>
     );

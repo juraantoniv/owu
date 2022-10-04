@@ -1,11 +1,13 @@
 import React from 'react';
 
-const Car = () => {
+const Posts = () => {
     return (
         <div>
+
+            Posts
             
         </div>
     );
 };
 
-export default Car;
+export default Posts;
