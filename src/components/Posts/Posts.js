@@ -23,7 +23,7 @@ const Posts = () => {
 
     return (
         <div>
-            {state.posts.map((user, index) => (<Post item={user} key={index}/>))}
+            {state.posts.map((post, index) => (<Post item={post} key={index}/>))}
         </div>
     );
 };
