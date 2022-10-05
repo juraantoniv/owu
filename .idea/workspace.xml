@@ -5,28 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb86da8-44b5-4513-b391-2846ab6e21d6" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/Redusers/Redusers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PostsPage/PostsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carform/Carform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configs/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CarPage/CarPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CarPage/UsersPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage/PostsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CarPage/UsersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UsersPage/UsersPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage/PostsPage.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/auth.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/services.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/services.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/services.all.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +101,9 @@
       <workItem from="1664608267165" duration="5819000" />
       <workItem from="1664616761891" duration="1351000" />
       <workItem from="1664621317653" duration="1366000" />
-      <workItem from="1664907289311" duration="3487000" />
+      <workItem from="1664907289311" duration="5922000" />
+      <workItem from="1664914897422" duration="962000" />
+      <workItem from="1664953594843" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1664024032461</created>
@@ -196,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664907558736</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ok">
+      <created>1664911258412</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664911258412</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

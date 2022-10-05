@@ -8,8 +8,8 @@ import {
     Outlet, Navigate
 } from "react-router-dom";
 import MainLayout from "./layunts/MainLayout";
-import PostsPage from "./pages/LoginPage/PostsPage";
-import UsersPage from "./pages/CarPage/UsersPage";
+import PostsPage from "./pages/PostsPage/PostsPage";
+import UsersPage from "./pages/UsersPage/UsersPage";
 
 
 

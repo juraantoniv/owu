@@ -3,6 +3,7 @@ import {servicesAll} from "../../services/services.all";
 import {useDispatch, useSelector} from "react-redux";
 import User from "../User/User";
 
+
 const Users = () => {
 
     let state = useSelector(state => state.userReducer);
@@ -11,18 +12,18 @@ const Users = () => {
 
 
     useEffect(() => {
-
-           servicesAll.users.then(value => value.json())
-            .then(value => {
-                dispatch( {type : 'LOAD_USERS',payload:value});
+           servicesAll.users().then(({data}) =>{
+                dispatch( {type : 'LOAD_USERS',payload:data});
             });
 
     }, []);
 
 
+
+
     return (
         <div>
-            <User/>
+            {state.users.map((user, index) => (<User item={user} key={index}/>))}
         </div>
     );
 };

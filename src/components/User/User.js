@@ -1,14 +1,16 @@
 import React from 'react';
-import {combineReducers} from "redux";
-import {userReducer} from "../../Redusers/Redusers";
 
-const User = () => {
 
-    const {userReducer}=combineReducers
+const User = ({item}) => {
+
 
     return (
         <div>
-            {JSON.stringify(userReducer)}
+
+            <div>{item.id}</div>
+            <div>{item.name}</div>
+
+
         </div>
     );
 };

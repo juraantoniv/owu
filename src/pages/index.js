@@ -1,2 +1,3 @@
-export * from './LoginPage/PostsPage'
-export * from './RegisterPage/RegisterPage'
+
+export * from './PostsPage/PostsPage'
+export * from './UsersPage/UsersPage'
