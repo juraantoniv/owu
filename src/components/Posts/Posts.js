@@ -6,7 +6,7 @@ import Post from "../Post/Post";
 
 const Posts = () => {
 
-    let state = useSelector(state => state.userReducer);
+    let state = useSelector(state => state.postReducer);
     console.log(state);
     let dispatch = useDispatch();
 
