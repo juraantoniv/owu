@@ -27,10 +27,6 @@ const postReducer = (state = {posts: [], post: null}, action) => {
                 ...state,
                 posts: action.payload
             };
-        case "CHOOSE_POST":
-            let id = action.payload;
-            let post = state.posts.find(value => value.id === id);
-            return {...state, post}
 
         default:
             return state;
