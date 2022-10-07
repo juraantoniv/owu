@@ -1,18 +1,12 @@
-import React from 'react';
-import {useNavigate} from "react-router-dom";
-import css from './Header.module.css'
-
+import css from './Header.modele.css';
+import {useSelector} from "react-redux";
 
 const Header = () => {
-
-    const navigate = useNavigate();
-
+    const {user} = useSelector(state => state.userReducer);
+    const {post} = useSelector(state => state.postReducer);
     return (
         <div className={css.Header}>
-            <div className={css.btns}>
-                <button onClick={() => navigate('/login')}>Login</button>
-                <button onClick={() => navigate('/register')}>Register</button>
-            </div>
+            {post && user.title}
         </div>
     );
 };
