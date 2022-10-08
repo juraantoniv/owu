@@ -1,5 +1,6 @@
 import {createAsyncThunk, createSlice, current} from "@reduxjs/toolkit";
 import {userService} from "../../services";
+import {postActions} from "./post.slice";
 
 const initialState ={
     users:[],
@@ -18,15 +19,21 @@ const userSlice = createSlice({
         },
         setCurrentUser: (state, action) => {
             state.user = action.payload
+        },
+        deleteById: (state, action) => {
+            const index = state.users.findIndex(user => user.id === action.payload);
+            state.users.splice(index, 1)
+            console.log(current(state.users));
         }
     }
 });
 
-const {reducer:userReducer,actions:{getAll,setCurrentUser}}=userSlice
+const {reducer:userReducer,actions:{getAll,setCurrentUser,deleteById}}=userSlice
 
 const userActions ={
     getAll,
-    setCurrentUser
+    setCurrentUser,
+    deleteById
 }
 
 export {

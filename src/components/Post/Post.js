@@ -1,16 +1,18 @@
 import React from 'react';
 import {userActions} from "../../redux";
 import {useDispatch} from "react-redux";
+import {postActions} from "../../redux/slices/post.slice";
 
 const Post = ({post}) => {
     const dispatch = useDispatch();
-    const {title,body}=post
+    const {title,body,userId}=post
 
     return (
         <div>
             <div>{title}</div>
             <div>{body}</div>
-            <button onClick={() => dispatch(userActions.setCurrentUser(post))}>getTitle</button>
+            <button onClick={() => dispatch(postActions.setCurrentPost(post))}>getTitle</button>
+            <button onClick={()=>dispatch(postActions.deleteById(userId))}>delete</button>
         </div>
     );
 };

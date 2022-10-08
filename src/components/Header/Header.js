@@ -6,7 +6,8 @@ const Header = () => {
     const {post} = useSelector(state => state.postReducer);
     return (
         <div className={css.Header}>
-            {post && user.title}
+            {post && post.title}
+            {user && user.name}
         </div>
     );
 };

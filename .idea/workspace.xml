@@ -2,40 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b851e928-58d9-45d3-ab68-0353ed1272f9" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.modele.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/post.slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/user.slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/post.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/user.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carform/Carform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configs/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/urls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layunts/MainLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layunts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CarPage/CarPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Axios.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/axios.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/auth.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/car.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/post.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/post.slice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/user.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/user.slice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -99,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665174131352</updated>
       <workItem from="1665174134008" duration="316000" />
-      <workItem from="1665175556620" duration="7273000" />
+      <workItem from="1665175556620" duration="7358000" />
+      <workItem from="1665222805237" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1665174302248</created>
@@ -108,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665174302248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <created>1665182954375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665182954375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

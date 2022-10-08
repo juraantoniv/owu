@@ -18,15 +18,21 @@ const postSlice = createSlice({
         },
         setCurrentPost: (state, action) => {
             state.post = action.payload
+        },
+        deleteById: (state, action) => {
+            const index = state.posts.findIndex(post => post.id === action.payload);
+            state.posts.splice(index, 1)
+            console.log(current(state.posts));
         }
     }
 });
 
-const {reducer:postReducer,actions:{getAll,setCurrentPost}}=postSlice
+const {reducer:postReducer,actions:{getAll,setCurrentPost,deleteById}}=postSlice
 
 const postActions ={
     getAll,
-    setCurrentPost
+    setCurrentPost,
+    deleteById
 }
 
 export {
