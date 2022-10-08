@@ -1,13 +1,10 @@
-import {createAsyncThunk, createSlice, current} from "@reduxjs/toolkit";
-import {userService} from "../../services";
-import {postActions} from "./post.slice";
+import {createSlice, current} from "@reduxjs/toolkit";
+
+
 
 const initialState ={
     users:[],
-    user:[],
-    loading:false,
-    error:null,
-    usrFormApi:null
+    user:[]
 }
 
 const userSlice = createSlice({
