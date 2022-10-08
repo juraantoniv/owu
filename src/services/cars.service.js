@@ -1,10 +1,10 @@
 import {axiosService} from "./axios.service";
 import {urls} from "../configs";
 
-const postService = {
-    getAll: () => axiosService.get(urls.posts),
+const carsService = {
+    getAll: () => axiosService.get(urls.cars)
 }
 
 export {
-    postService
+    carsService
 }
