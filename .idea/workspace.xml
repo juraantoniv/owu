@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb86da8-44b5-4513-b391-2846ab6e21d6" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carform/Carform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/urls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layunts/MainLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layunts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CarPage/CarPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Axios.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/auth.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redax/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redax/redax-toll-kit/redax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redax/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CarPage/CarPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CarPage/CarPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/car.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
