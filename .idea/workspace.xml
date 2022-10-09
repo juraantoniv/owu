@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b851e928-58d9-45d3-ab68-0353ed1272f9" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/src/components/CarForm/car.form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/car.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/car.slice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/cars.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/cars.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,8 @@
       <workItem from="1665222805237" duration="7231000" />
       <workItem from="1665241282701" duration="4041000" />
       <workItem from="1665245728356" duration="24000" />
-      <workItem from="1665252991612" duration="2139000" />
+      <workItem from="1665252991612" duration="2281000" />
+      <workItem from="1665309091446" duration="3946000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1665174302248</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665245741914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ok">
+      <created>1665255179072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665255179072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

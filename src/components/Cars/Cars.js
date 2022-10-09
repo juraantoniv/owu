@@ -8,21 +8,21 @@ import {useForm} from "react-hook-form";
 
 const Cars = () => {
 
-    const {register, handleSubmit, reset, formState: {errors, isValid}, setValue} = useForm({
-
-        mode: 'all'
-    });
-
-    useEffect(() => {
-        setValue('model', 'BMW')
-        setValue('price', 0)
-        setValue('year', 1990)
-    }, [])
+    // const {register, handleSubmit, reset, formState: {errors, isValid}, setValue} = useForm({
+    //
+    //     mode: 'all'
+    // });
+    //
+    // useEffect(() => {
+    //     setValue('model', 'BMW')
+    //     setValue('price', 0)
+    //     setValue('year', 1990)
+    // }, [])
 
 
     const dispatch = useDispatch()
 
-    const {cars,car}=useSelector(state => state.carReducer)
+    const {cars}=useSelector(state => state.carReducer)
 
     useEffect(() => {
         carsService.getAll().then(({data})=>dispatch(carActions.getAll(data)))
@@ -31,23 +31,23 @@ const Cars = () => {
 
 
 
-    async function submit(obj) {
-         await carsService.create(obj);
-         dispatch(carActions.getAll(obj))
-    }
+    // async function submit(obj) {
+    //      await carsService.create(obj);
+    //      dispatch(carActions.getAll(obj))
+    // }
 
 
 
     return (
         <div>
-            <form onSubmit={handleSubmit(submit)}>
-                <input type="text" placeholder={'model'} {...register('model')}/>
+            {/*<form onSubmit={handleSubmit(submit)}>*/}
+            {/*    <input type="text" placeholder={'model'} {...register('model')}/>*/}
 
-                <input type="text" placeholder={'price'} {...register('price', {valueAsNumber: true})}/>
+            {/*    <input type="text" placeholder={'price'} {...register('price', {valueAsNumber: true})}/>*/}
 
-                <input type="text" placeholder={'year'} {...register('year', {valueAsNumber: true})}/>
-                <button>Save</button>
-            </form>
+            {/*    <input type="text" placeholder={'year'} {...register('year', {valueAsNumber: true})}/>*/}
+            {/*    <button>Save</button>*/}
+            {/*</form>*/}
 
             {cars.map(car=><Car key={car.id} car={car}/>)}
             
