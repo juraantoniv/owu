@@ -8,15 +8,15 @@ import {useForm} from "react-hook-form";
 import {carService} from "../../services/car.service";
 
 const Cars = () => {
-
-
-
     const dispatch = useDispatch()
-
     const {cars}=useSelector(state => state.carReducer)
 
     useEffect(() => {
-       dispatch(carActions.getAllAsync())
+
+        carService.getAll().then(({data})=>dispatch(carActions.getAll(data)))
+       // dispatch(carActions.getAllAsync())
+
+
 
     },[])
 
@@ -24,8 +24,8 @@ const Cars = () => {
     return (
         <div>
 
-            {cars.map(car=><Car key={car.id} car={car}/>)}
-
+            {cars.data.map(car=><Car key={car.id} car={car}/>)}
+            {/*{JSON.stringify(cars)}*/}
         </div>
     );
 };

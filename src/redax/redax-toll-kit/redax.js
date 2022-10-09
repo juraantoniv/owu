@@ -11,7 +11,7 @@ const initialState ={
 
 
 const getAllAsync = createAsyncThunk(
-    'postSlice/getAll',
+    'carSlice/getAll',
     async (_,{rejectWithValue})=>{
 
         try {

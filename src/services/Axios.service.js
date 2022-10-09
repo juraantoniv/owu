@@ -9,7 +9,7 @@ axiosService.interceptors.request.use((config)=>{
     const access = authService.getAccessToken()
 
     if (access){
-        config.headers.Authorization = `Bearer${access}`
+        config.headers.Authorization = ` Bearer ${access}`
     }
     return config
 })
