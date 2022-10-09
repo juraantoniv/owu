@@ -16,7 +16,7 @@ const Cars = () => {
     const {cars}=useSelector(state => state.carReducer)
 
     useEffect(() => {
-        carService.getAll().then(({data})=>dispatch(carActions.getAll(data)))
+       dispatch(carActions.getAllAsync())
 
     },[])
 
