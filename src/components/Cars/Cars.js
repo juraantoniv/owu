@@ -32,8 +32,8 @@ const Cars = () => {
 
 
     // async function submit(obj) {
-    //      await carsService.create(obj);
-    //      dispatch(carActions.getAll(obj))
+    //     // postService.getAll().then(({data})=>dispatch(postActions.getAll(data)))
+    //     dispatch(carActions.getAllAsync(obj))
     // }
 
 

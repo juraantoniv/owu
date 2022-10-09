@@ -22,16 +22,14 @@ const CarForm = () => {
 
     const dispatch = useDispatch()
 
-    const {car}=useSelector(state => state.carReducer)
+    const {cars}=useSelector(state => state.carReducer)
 
 
 
 
 
     async function submit(obj) {
-       const {data} = await carsService.create(obj);
-       console.log(data)
-        dispatch(carActions.getAll(data))
+            dispatch(carActions.getAllAsync(obj))
     }
 
 
@@ -47,7 +45,7 @@ const CarForm = () => {
                 <button>Save</button>
             </form>
 
-            {car.map(car=><Car key={car.id} car={car}/>)}
+            {cars.map(car=><Car key={car.id} car={car}/>)}
 
 
         </div>
