@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b851e928-58d9-45d3-ab68-0353ed1272f9" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarForm/car.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarForm/car.form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/slices/car.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/car.slice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Fp1ICD1iCwCX0HjYHfnrL1AnrY" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">

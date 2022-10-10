@@ -14,15 +14,20 @@ const CarForm = () => {
     });
 
     useEffect(() => {
-        setValue('model', 'BMW')
-        setValue('price', 0)
-        setValue('year', 1990)
-    }, [])
+        if (car){
+
+            setValue('model', car.model)
+            setValue('price', car.price)
+            setValue('year', car.year)
+
+        }
+
+    }, [setValue])
 
 
     const dispatch = useDispatch()
 
-    const {cars}=useSelector(state => state.carReducer)
+    const {cars,car}=useSelector(state => state.carReducer)
 
 
 

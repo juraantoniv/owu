@@ -40,8 +40,8 @@ const carsSlice = createSlice({
             const index = state.cars.findIndex(car => car.id === action.payload);
             state.cars.splice(index, 1)
     },
-        setCurrentUser: (state, action) => {
-            state.cars = action.payload
+        setCurrenCar: (state, action) => {
+            state.car = action.payload
         },
         extraReducers:{
             [getAllAsync.fulfilled]:(state,action)=>{
@@ -50,12 +50,12 @@ const carsSlice = createSlice({
         },
 }});
 
-const {reducer:carReducer,actions:{getAll,deleteById,setCurrentUser}}=carsSlice
+const {reducer:carReducer,actions:{getAll,deleteById,setCurrentCar}}=carsSlice
 
 const carActions ={
     getAll,
     deleteById,
-    setCurrentUser,
+    setCurrentCar,
     getAllAsync
 
 }
