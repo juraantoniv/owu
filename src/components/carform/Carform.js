@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useForm} from "react-hook-form";
 
 import {useDispatch, useSelector} from "react-redux";
@@ -6,14 +6,21 @@ import {carActions} from "../../redax/redax-toll-kit/redax";
 
 const Carform = () => {
 
-   const {handleSubmit,register}=useForm()
+   const {handleSubmit,register,setValue}=useForm()
+
+    useEffect(() => {
+        setValue('model', 'VW')
+        setValue('price', 6000)
+        setValue('year', 2010)
+    }, [])
+
 
     const dispatch = useDispatch()
     // const {cars}=useSelector(state => state.carReducer)
 
     const submit = async (data)=> {
        dispatch(carActions.postAllAsync(data))
-        return data
+
 
     }
 

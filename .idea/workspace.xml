@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/carform/Carform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carform/Carform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redax/redax-toll-kit/redax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redax/redax-toll-kit/redax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/car.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <workItem from="1664621317653" duration="1366000" />
       <workItem from="1665329792067" duration="2621000" />
       <workItem from="1665349931564" duration="68000" />
-      <workItem from="1665387860570" duration="1788000" />
+      <workItem from="1665387860570" duration="5445000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1664024032461</created>
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665332527253</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ok">
+      <created>1665389934920</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665389934920</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
