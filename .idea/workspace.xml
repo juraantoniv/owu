@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb86da8-44b5-4513-b391-2846ab6e21d6" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carform/Carform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carform/Carform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redax/redax-toll-kit/redax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redax/redax-toll-kit/redax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Axios.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Axios.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/car.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,9 @@
       <workItem from="1664608267165" duration="5819000" />
       <workItem from="1664616761891" duration="1351000" />
       <workItem from="1664621317653" duration="1366000" />
-      <workItem from="1665329792067" duration="602000" />
+      <workItem from="1665329792067" duration="2621000" />
+      <workItem from="1665349931564" duration="68000" />
+      <workItem from="1665387860570" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1664024032461</created>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665327161779</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ok">
+      <created>1665332527253</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665332527253</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

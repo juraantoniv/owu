@@ -13,8 +13,8 @@ const Cars = () => {
 
     useEffect(() => {
 
-        carService.getAll().then(({data})=>dispatch(carActions.getAll(data)))
-       // dispatch(carActions.getAllAsync())
+        // carService.getAll().then(({data})=>dispatch(carActions.getAll(data)))
+       dispatch(carActions.getAllAsync())
 
 
 
@@ -24,8 +24,8 @@ const Cars = () => {
     return (
         <div>
 
-            {cars.data.map(car=><Car key={car.id} car={car}/>)}
-            {/*{JSON.stringify(cars)}*/}
+            {/*{cars.data.map(car=><Car key={car.id} car={car}/>)}*/}
+            {JSON.stringify(cars)}
         </div>
     );
 };

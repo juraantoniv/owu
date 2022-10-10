@@ -1,15 +1,20 @@
 import React, {useState} from 'react';
 import {useForm} from "react-hook-form";
-import {carService} from "../../services/car.service";
+
+import {useDispatch, useSelector} from "react-redux";
+import {carActions} from "../../redax/redax-toll-kit/redax";
 
 const Carform = () => {
 
    const {handleSubmit,register}=useForm()
 
+    const dispatch = useDispatch()
+    // const {cars}=useSelector(state => state.carReducer)
 
-    const submit= async (data)=> {
-        const {car} = await carService.create(data)
-        console.log(car)
+    const submit = async (data)=> {
+       dispatch(carActions.postAllAsync(data))
+        return data
+
     }
 
     return (

@@ -25,6 +25,21 @@ const getAllAsync = createAsyncThunk(
 
     }
 )
+const postAllAsync = createAsyncThunk(
+    'carSlice/getAll',
+    async (obj,{rejectWithValue})=>{
+
+        try {
+            const {data} = await carService.create(obj)
+            return data
+        }
+        catch (e){
+            return rejectWithValue(e.response.data)
+
+        }
+
+    }
+)
 
 
 
@@ -46,6 +61,9 @@ const carsSlice = createSlice({
         extraReducers:{
             [getAllAsync.fulfilled]:(state,action)=>{
                 state.cars =action.payload
+            },
+            [postAllAsync.fulfilled]:(state,action)=>{
+                state.cars =action.payload
             }
         },
     }});
@@ -56,7 +74,8 @@ const carActions ={
     getAll,
     deleteById,
     setCurrentUser,
-    getAllAsync
+    getAllAsync,
+    postAllAsync
 
 }
 
