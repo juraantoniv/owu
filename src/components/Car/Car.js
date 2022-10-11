@@ -9,7 +9,7 @@ import {carActions} from "../../redax/redax-toll-kit/redax";
 const Car = ({car}) => {
 
     const dispatch = useDispatch();
-    const {id, model, price, year} = car;
+    const {id, model, price, year,photo} = car;
 
     return (
         <div>

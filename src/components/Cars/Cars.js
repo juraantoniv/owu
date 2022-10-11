@@ -12,19 +12,14 @@ const Cars = () => {
     const {cars}=useSelector(state => state.carReducer)
 
     useEffect(() => {
-
-        carService.getAll().then(({data})=>dispatch(carActions.getAll(data)))
-       // dispatch(carActions.getAllAsync())
-
-
-
+       dispatch(carActions.getAllAsync())
     },[])
 
 
     return (
         <div>
 
-            {cars.data.map(car=><Car key={car.id} car={car}/>)}
+            {cars.map(car=><Car key={car.id} car={car}/>)}
             {/*{JSON.stringify(cars)}*/}
         </div>
     );

@@ -3,22 +3,20 @@ import {carService} from "../../services/car.service";
 import car from "../../components/Car/Car";
 
 
-
-const initialState ={
-    cars:[],
-    car:[]
+const initialState = {
+    cars: [],
+    car: []
 }
 
 
 const getAllAsync = createAsyncThunk(
-    'carSlice/getAll',
-    async (_,{rejectWithValue})=>{
+    'carSlice1/getAll1',
+    async (_, {rejectWithValue}) => {
 
         try {
             const {data} = await carService.getAll()
-            return data
-        }
-        catch (e){
+            return data.data
+        } catch (e) {
             return rejectWithValue(e.response.data)
 
         }
@@ -27,28 +25,25 @@ const getAllAsync = createAsyncThunk(
 )
 const postAllAsync = createAsyncThunk(
     'carSlice/getAll',
-    async (obj,{rejectWithValue})=>{
+    async (obj, {rejectWithValue}) => {
 
         try {
             const {data} = await carService.create(obj)
-            return data
-        }
-        catch (e){
+            return data.data
+        } catch (e) {
             return rejectWithValue(e.response.data)
-
         }
 
     }
 )
 
 
-
-
 const carsSlice = createSlice({
-    name:'carSlice',
+    name: 'carSlice',
     initialState,
     reducers: {
         getAll: (state, action) => {
+            console.log(action.payload);
             state.cars = action.payload
         },
         deleteById: (state, action) => {
@@ -58,19 +53,20 @@ const carsSlice = createSlice({
         setCurrentUser: (state, action) => {
             state.cars = action.payload
         },
-        extraReducers:{
-            [getAllAsync.fulfilled]:(state,action)=>{
-                state.cars =action.payload
-            },
-            [postAllAsync.fulfilled]:(state,action)=>{
-                state.cars =action.payload
-            }
+    },
+    extraReducers: {
+        [getAllAsync.fulfilled]: (state, action) => {
+            state.cars = action.payload
         },
-    }});
+        [postAllAsync.fulfilled]: (state, action) => {
+            state.cars = action.payload
+        }
+    },
+});
 
-const {reducer:carReducer,actions:{getAll,deleteById,setCurrentUser}}=carsSlice
+const {reducer: carReducer, actions: {getAll, deleteById, setCurrentUser}} = carsSlice
 
-const carActions ={
+const carActions = {
     getAll,
     deleteById,
     setCurrentUser,
