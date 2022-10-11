@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b851e928-58d9-45d3-ab68-0353ed1272f9" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarForm/car.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarForm/car.form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/car.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/car.slice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +73,8 @@
       <workItem from="1665245728356" duration="24000" />
       <workItem from="1665252991612" duration="2281000" />
       <workItem from="1665309091446" duration="7598000" />
+      <workItem from="1665469409594" duration="57000" />
+      <workItem from="1665471614155" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1665174302248</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665314887242</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ok">
+      <created>1665407005703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665407005703</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -47,7 +47,7 @@ const CarForm = () => {
                 <input type="text" placeholder={'price'} {...register('price', {valueAsNumber: true})}/>
 
                 <input type="text" placeholder={'year'} {...register('year', {valueAsNumber: true})}/>
-                <button>Save</button>
+                <button>{car?'Update':'Post'}</button>
             </form>
 
             {cars.map(car=><Car key={car.id} car={car}/>)}
