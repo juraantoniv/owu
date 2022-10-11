@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb86da8-44b5-4513-b391-2846ab6e21d6" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carform/Carform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carform/Carform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/car.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
