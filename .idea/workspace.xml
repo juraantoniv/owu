@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b851e928-58d9-45d3-ab68-0353ed1272f9" name="Changes" comment="ok">
+    <list default="true" id="b851e928-58d9-45d3-ab68-0353ed1272f9" name="Changes" comment="y">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/carform/Carform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carform/Carform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redax/redax-toll-kit/redax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redax/redax-toll-kit/redax.js" afterDir="false" />
     </list>
@@ -73,7 +71,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebb86da8-44b5-4513-b391-2846ab6e21d6" name="Changes" comment="ok" />
+      <changelist id="b851e928-58d9-45d3-ab68-0353ed1272f9" name="Changes" comment="y" />
       <created>1664011680283</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -96,6 +94,7 @@
       <workItem from="1665329792067" duration="2621000" />
       <workItem from="1665349931564" duration="68000" />
       <workItem from="1665387860570" duration="5445000" />
+      <workItem from="1665514777733" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1664024032461</created>
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665389934920</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="y">
+      <created>1665504487266</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665504487266</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

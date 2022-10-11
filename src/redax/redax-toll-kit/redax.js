@@ -29,7 +29,9 @@ const postAllAsync = createAsyncThunk(
 
         try {
             const {data} = await carService.create(obj)
-            return data.data
+            console.log(data)
+            return data
+
         } catch (e) {
             return rejectWithValue(e.response.data)
         }
@@ -59,6 +61,7 @@ const carsSlice = createSlice({
             state.cars = action.payload
         },
         [postAllAsync.fulfilled]: (state, action) => {
+            console.log(action.payload)
             state.cars = action.payload
         }
     },
