@@ -66,21 +66,20 @@ interface showSum{
 }
 
 interface incAge{
-    incAge: (age,inc) => string
+    incAge: () => number
 }
 
 
 class All implements sum,showSum,incAge {
-    constructor(private a: number, private b: number ,public inc:number) {
+    constructor(private a: number, private b: number ,public inc:number, public age:number) {
     }
 
     Sum(): number {
         return this.a+this.b
     }
 
-    incAge(age,icr): string {
-        age.age+this.inc
-        return  age
+    incAge(): number {
+        return this.age+this.inc
     }
 
     showSum(): void {
