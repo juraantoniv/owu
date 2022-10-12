@@ -45,7 +45,32 @@ interface Ipayloads{
 //-------------------------------------------------------
 //2
 
+class User {
+
+    constructor( public name: string, public age: number,public gender: string,) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+}
+
+const user = new User('Max',18,'male');
 
 
+function sum(a,b){
+    return a+b
+}
+function showSum(a,b){
+    console.log(a + b);
+}
+
+function incAge(someUser, inc){
+    someUser.age+=inc
+    return someUser
+}
+
+console.log(sum(1, 2));
+showSum(2,3)
+incAge(user, 2)
 
 
