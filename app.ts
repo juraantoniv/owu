@@ -87,28 +87,33 @@ class All implements sum,showSum,incAge {
         return console.log(this.b+this.b)
     }
 
-
-
 }
 
-
+const Show = new All(5,6,3,18)
 
 function sum(a,b){
     return a+b
 }
 
 
-function showSum(a,b){
-    console.log(a + b);
-}
+console.log(Show.Sum());
 
-function incAge(someUser, inc){
-    someUser.age+=inc
-    return someUser
-}
+console.log(Show.showSum());
 
-console.log(sum(1, 2));
-showSum(2,3)
-incAge(user.age, 2)
+console.log(Show.incAge());
+
+//
+// function showSum(a,b){
+//     console.log(a + b);
+// }
+//
+// function incAge(someUser, inc){
+//     someUser.age+=inc
+//     return someUser
+// }
+//
+// // console.log(sum(1, 2));
+// // showSum(2,3)
+// // incAge(user.age, 2)
 
 
