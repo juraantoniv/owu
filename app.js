@@ -12,6 +12,24 @@ var User = /** @class */ (function () {
     return User;
 }());
 var user = new User('Max', 18, 'male');
+var All = /** @class */ (function () {
+    function All(a, b, inc, age) {
+        this.a = a;
+        this.b = b;
+        this.inc = inc;
+        this.age = age;
+    }
+    All.prototype.Sum = function () {
+        return this.a + this.b;
+    };
+    All.prototype.incAge = function () {
+        return this.age + this.inc;
+    };
+    All.prototype.showSum = function () {
+        return console.log(this.b + this.b);
+    };
+    return All;
+}());
 function sum(a, b) {
     return a + b;
 }
