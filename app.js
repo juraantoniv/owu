@@ -23,7 +23,8 @@ var All = /** @class */ (function () {
         return this.a + this.b;
     };
     All.prototype.incAge = function () {
-        return this.age + this.inc;
+        this.age += this.inc;
+        return this.age;
     };
     All.prototype.showSum = function () {
         return console.log(this.b + this.b);
@@ -42,4 +43,4 @@ function incAge(someUser, inc) {
 }
 console.log(sum(1, 2));
 showSum(2, 3);
-incAge(user, 2);
+incAge(user.age, 2);
