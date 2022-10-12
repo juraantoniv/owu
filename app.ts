@@ -57,9 +57,47 @@ class User {
 const user = new User('Max',18,'male');
 
 
+interface sum {
+    Sum: () => number
+}
+
+interface showSum{
+    showSum: () => void
+}
+
+interface incAge{
+    incAge: (age,inc) => string
+}
+
+
+class All implements sum,showSum,incAge {
+    constructor(private a: number, private b: number ,public inc:number) {
+    }
+
+    Sum(): number {
+        return this.a+this.b
+    }
+
+    incAge(age,icr): string {
+        age.age+this.inc
+        return  age
+    }
+
+    showSum(): void {
+        return console.log(this.b+this.b)
+    }
+
+
+
+}
+
+
+
 function sum(a,b){
     return a+b
 }
+
+
 function showSum(a,b){
     console.log(a + b);
 }
