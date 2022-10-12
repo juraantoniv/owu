@@ -79,7 +79,8 @@ class All implements sum,showSum,incAge {
     }
 
     incAge(): number {
-        return this.age+this.inc
+        this.age += this.inc
+        return this.age
     }
 
     showSum(): void {
