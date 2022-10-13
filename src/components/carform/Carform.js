@@ -8,13 +8,25 @@ const Carform = () => {
 
    const {handleSubmit,register,setValue}=useForm()
 
+    const {car}=useSelector(state => state.carReducer)
 
     const dispatch = useDispatch()
 
-
+    useEffect(() => {
+        if (car) {
+            setValue('model', car.model)
+            setValue('price', car.price)
+            setValue('year', car.year)
+        }
+    }, [car, setValue]);
 
     const submit =  async (data)=> {
-       dispatch(carActions.postAllAsync(data))
+        if (car) {
+            await dispatch(carActions.updateAllAsync({id: car.id, car: data}))
+        } else {
+            await dispatch(carActions.postAllAsync(data))
+        }
+        // reset();
 
     }
 
@@ -26,7 +38,7 @@ const Carform = () => {
                 <input type='text' placeholder={'name'} {...register('model')}/>
                 <input type='text' placeholder={'price'} {...register('price')}/>
                 <input type='text' placeholder={'year'} {...register('year')}/>
-                <button>Push</button>
+                <button>{car ? 'Update' : 'Create'}</button>
             </form>
         </div>
     );
