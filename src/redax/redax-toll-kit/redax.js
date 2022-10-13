@@ -56,6 +56,22 @@ const updateAllAsync = createAsyncThunk(
     }
 )
 
+const deleteAllAsync = createAsyncThunk(
+    'carSlice/getAll',
+    async ({id}, {rejectWithValue}) => {
+
+        try {
+            const {data} = await carService.deleteById(id)
+            console.log(data)
+            return data
+
+        } catch (e) {
+            return rejectWithValue(e.response.data)
+        }
+
+    }
+)
+
 
 
 const carsSlice = createSlice({
@@ -77,6 +93,11 @@ const carsSlice = createSlice({
             const findCar = state.cars.find(value => value.id === action.payload.id);
             Object.assign(findCar,action.payload);
             state.carForUpdate = null;
+        },
+        [deleteAllAsync.fulfilled]: (state, action) => {
+            const findCar = state.cars.findIndex(value => value.id === action.payload);
+            state.cars.splice(findCar,1);
+
         }
     },
 });
@@ -85,7 +106,7 @@ const {reducer: carReducer, actions: {getAll, deleteById, setCurrentUser}} = car
 
 const carActions = {
     getAll,
-    deleteById,
+    deleteAllAsync,
     setCurrentUser,
     getAllAsync,
     postAllAsync,
